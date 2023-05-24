@@ -39,6 +39,17 @@ const newUserProfile = {
 	status: function () {
 		console.log('I"m sleeping...')
 	},
+	// Можно создать функцию без ключевого слова "function"
+	message() {
+		console.log('Hello')
+	},
 }
-newUserProfile.status()
 console.log(newUserProfile)
+newUserProfile.status()
+newUserProfile.message()
+
+// Конвертация объекта в JSON формат и обратно
+newObject = JSON.stringify(newUserProfile)
+console.log(newObject)
+newObjectTwo = JSON.parse(newObject)
+console.log(newObjectTwo)
