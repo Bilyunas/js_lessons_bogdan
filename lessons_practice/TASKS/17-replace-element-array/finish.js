@@ -8,3 +8,8 @@
  *
  * 4. Выведите в консоль измененный массив
  */
+
+const myArr = [33, 'Test', true]
+console.log(myArr)
+myArr[1] = 'Other text'
+console.log(myArr)
