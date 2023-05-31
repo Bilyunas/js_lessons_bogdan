@@ -4,3 +4,5 @@
  *
  * 2. Виведите в консоль длину этой строки
  */
+const myString = 'This is just text'
+console.log(`String have a ${myString.length} symles`)

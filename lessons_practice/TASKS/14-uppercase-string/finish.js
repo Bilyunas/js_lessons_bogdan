@@ -12,3 +12,10 @@
  *
  * 5. Выведите в консоль значение второй переменной
  */
+let myHobby = 'My Hobby is computer game, hockey, social network...'
+console.log(myHobby)
+console.log(myHobby instanceof String)
+console.log(typeof myHobby)
+
+let upString = myHobby.toUpperCase()
+console.log(upString)
