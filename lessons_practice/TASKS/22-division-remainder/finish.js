@@ -8,5 +8,11 @@
  * 3. Проверьте ассоциативность самостоятельно
  */
 
-const myNumber1 = 10 // 10 = 3 + 3 + 3 + 1
+const myNumber1 = 320 // 10 = 3 + 3 + 3 + 1
 const myNumber2 = 3
+
+console.log(
+	`Num ${myNumber1} divide on num ${myNumber2} result = ${Math.round(
+		myNumber1 / myNumber2
+	)}. Remainder of the division = ${myNumber1 % myNumber2}`
+)

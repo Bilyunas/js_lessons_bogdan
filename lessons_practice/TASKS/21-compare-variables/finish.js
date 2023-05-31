@@ -9,9 +9,17 @@
 let myVariable1 = 10
 let myVariable2 = '5'
 
-// Напишите код здесь
+// // Вариант 1 преобразование строки в число
+// console.log(parseInt('25'))
+// console.log(typeof parseInt('25'))
+
+// // Вариант 2 преобразование строки в число
+// console.log(+'25')
+// console.log(typeof +'25')
+
+console.log(parseInt(myVariable1) <= parseInt(myVariable2))
 
 myVariable1 = '20'
 myVariable2 = 100
 
-// Напишите код здесь
+console.log(parseInt(myVariable1) <= parseInt(myVariable2))
