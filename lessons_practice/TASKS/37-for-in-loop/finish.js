@@ -6,13 +6,18 @@
  */
 
 const myObject = {
-  name: 'Mike',
-  age: 30,
-  city: 'London',
+	name: 'Mike',
+	age: 30,
+	city: 'London',
 }
 
 Object.prototype.country = 'England'
 
 for (let key in myObject) {
-  console.log(myObject[key])
+	if (myObject.hasOwnProperty(key) === true) {
+		console.log(myObject[key], ' - собственное свойство')
+	}
+	if (myObject.hasOwnProperty(key) === false) {
+		console.log(myObject[key], ' - не собственное свойство')
+	}
 }
